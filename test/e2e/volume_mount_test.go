@@ -20,10 +20,11 @@ limitations under the License.
 package e2e
 
 import (
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/kubernetes/pkg/kubectl/describe/versioned"
 	"regexp"
 	"testing"
+
+	"k8s.io/apimachinery/pkg/util/wait"
+	"k8s.io/kubernetes/pkg/kubectl/describe/versioned"
 
 	"github.com/stretchr/testify/assert"
 

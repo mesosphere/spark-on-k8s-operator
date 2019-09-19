@@ -22,7 +22,6 @@ import (
 
 	"k8s.io/client-go/rest"
 
-	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/batchscheduler/interface"
 	"github.com/GoogleCloudPlatform/spark-on-k8s-operator/pkg/batchscheduler/volcano"
 )
 

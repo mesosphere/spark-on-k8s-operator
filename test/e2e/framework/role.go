@@ -19,12 +19,13 @@ package framework
 import (
 	"encoding/json"
 	"io"
+	"os"
+
 	rbacv1 "k8s.io/api/rbac/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/util/yaml"
 	"k8s.io/client-go/kubernetes"
-	"os"
 )
 
 func CreateRole(kubeClient kubernetes.Interface, ns string, relativePath string) error {

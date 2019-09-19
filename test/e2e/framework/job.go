@@ -19,11 +19,12 @@ package framework
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/pkg/errors"
 	"io"
-	"k8s.io/apimachinery/pkg/util/wait"
 	"os"
 	"time"
+
+	"github.com/pkg/errors"
+	"k8s.io/apimachinery/pkg/util/wait"
 
 	batchv1 "k8s.io/api/batch/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
